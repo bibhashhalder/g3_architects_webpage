@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.navigation{
+    width: 805px;
+    margin: auto;
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.unorder_list{
+    display: flex;
+    justify-content: space-between;
+}
+.unorder_list> li{
+    list-style: none;
+    margin-left: 10px;
+}
+.unorder_list> li>a{
+text-decoration: none;
+}
